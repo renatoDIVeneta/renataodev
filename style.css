@@ -6,12 +6,12 @@
          border: 0;
       }
       body {
-        background-color: #252525;
+        background-color: #070707;
        }
        header  {
            padding: 32px;
-           border-bottom: 1px solid  #333;
-           background-color:  rgba(0, 0,0,0.1);
+           border-bottom: 1px solid  #f6eded;
+           background-color:  rgb(211, 196, 196);
        }
        header div {
            text-align: center;
@@ -26,9 +26,11 @@
          
        }
        header div a:hover {
-        color: green;
+        color: rgb(113, 15, 15);
         transition: color 700ms;
+        font-size: 22px;
     }
+
     #box {
 
         text-align: center;
@@ -36,13 +38,17 @@
     }
     #box img {
         border-radius: 50%;
-        border: 5px solid #338340;
+        border: 5px solid #661111;
         margin-bottom: 32px;
+        height: 350px;
+        width: 350px;
     }
+    
     #box h1 {
-        font-size: 42px;
+        font-size: 38px;
         line-height: 52px;
         font-weight: bold;
+        color: snow;
     }
     #box h2 {
         font-size: 24px;
@@ -50,10 +56,28 @@
         font-weight: normal;
         margin-top: 8px;
         opacity: 0.8;
+        color: snow;
     }
     #box p {
         max-width: 500px;
-        margin: 32px auto;
-        font-size: 24px;
+        margin: 10px auto;
+        font-size: 20px;
         line-height: 34px;
+        color: snow;
     }
+    :root{
+        --subcor: #740c0c;
+
+    }
+    header{
+        padding: 32px;
+        border-bottom: 3px solid #064081;
+        background-color: rgba(0, 0,0,0.1);
+    }
+
+header {
+
+    padding: 32px;
+    border-bottom: 3px solid var(--subcor);
+    background-color: rgba(0, 0,0,0.1);
+}
